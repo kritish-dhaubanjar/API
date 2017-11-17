@@ -1,0 +1,151 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+p{
+	font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Asap', sans-serif;
+}
+.topbar-text{
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.25) !important;
+	font-family: 'Asap', sans-serif;
+	width: 100%;
+}
+.topbar-text a{
+	color: #fff;
+	font-size: 12px;
+}
+/************************/
+#slider{
+	position:absolute;
+	z-index: -1;
+}
+/**********NAVBAR*********/
+.nav-normal{
+	position: absolute;
+	top: 44px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4) !important;*/
+	/*background-color: rgba(0,0,0,0) !important;*/
+}
+.nav-scroll{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.9) !important;
+}
+.navbar-custom a:link, .navbar-custom a:visited, .navbar-custom a:focus, a {
+	font-family: 'Asap', sans-serif;
+	color: #fff;
+}
+.navbar-custom a:active{
+	color: #f16338;
+}
+.navbar-custom a:hover{
+	transition: 0.1s; 
+	color: #f16338;
+}
+@media screen and (max-width: 991px){
+	.navbar-nav li{
+		text-align: center;
+	}
+}
+/************************/
+@media screen and (min-width: 1024px){
+	#startchange{
+		padding-top:640px;
+	}
+}
+@media screen and (max-width: 1023px){
+	#startchange{
+		padding-top:62%;
+	}
+}
+.content{
+	position: relative;
+	z-index: -1;
+	background-color: #f4f4f4;
+}
+.display-6{
+	font-size:2rem;
+	font-weight:250;
+	line-height:1.2
+}
+.headline-1{
+	text-align: right;
+	padding: 50px 10px 0px 0px;
+	line-height: 150%;
+}
+.headline-2{
+	padding: 50px 25px 50px 25px;
+}
+.headline-2 h5, p {
+	line-height: 160%;
+}
+@media screen and (min-width: 768px){
+	.headline-2 .for-border{
+		padding-left: 15px;
+		border-left: solid 3px #f16338;;
+	}
+	.p-c1{
+		margin-right: 25px;
+	}
+	.p-c2{
+		margin-left: 25px;
+	}
+}
+@media screen and (max-width: 767px){
+	.headline-1{
+		text-align: left;
+		line-height: 120%;
+	}
+	.headline-2{
+		padding: 25px 25px 50px 25px;
+	}
+}
+
+.parallax{
+	padding: 10px;
+	background-image: url(../images/paper-mill-industry-135x.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;	
+	color: #fff;
+}
+.parallax p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+.parallax-content{
+	margin-top:50px;
+	padding: 10px 10px 0 10px;
+	border: #fff solid 1px;
+	background-color: rgba(0,0,0,0.6);
+}
+.footer{
+	background-color: #444444;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footer p{
+	color: #ccc;
+}
+.footer h4{
+	color: #fff;
+	font-family: 'Asap', sans-serif;
+	padding-bottom: 20px;
+}
+.end{
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+.footer-block{
+	padding-top:15px;
+	padding-bottom: 40px;
+}
