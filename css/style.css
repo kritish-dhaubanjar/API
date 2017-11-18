@@ -12,9 +12,10 @@ hr{
 	width: 60px;
 	border-top: 3px #f16338 solid;
 }
+/*Top Bar*/
 .topbar-text{
 	position: absolute;
-	z-index: 1;
+	z-index: 3;
 	background-color: rgba(255,255,255,0.25) !important;
 	font-family: 'Asap', sans-serif;
 	width: 100%;
@@ -26,15 +27,17 @@ hr{
 /************************/
 #slider{
 	position:absolute;
-	z-index: -1;
+	z-index: 1;
 }
-/**********NAVBAR*********/
+/*NAVBAR*/
+#navigation{
+	z-index: 3;
+}
 .nav-normal{
 	position: absolute;
 	top: 44px;
 	width: 100%;
 	background-color: rgba(0,0,0,0.4) !important;*/
-	/*background-color: rgba(0,0,0,0) !important;*/
 }
 .nav-scroll{
 	position: fixed;
@@ -54,9 +57,11 @@ hr{
 	transition: 0.1s; 
 	color: #f16338;
 }
+/*Drop Down Menu*/
 .dropdown-menu{
 	background-color: rgba(0,0,0,0.5) !important;
 }
+/*Nav items Center*/
 @media screen and (max-width: 991px){
 	.navbar-nav li{
 		text-align: center;
@@ -76,6 +81,7 @@ hr{
 		padding-top:62%;
 	}
 }
+/*Z-index absolute position*/
 .content{
 	position: relative;
 	z-index: -1;
@@ -86,11 +92,13 @@ hr{
 	z-index: 1;
 	background-color: #f4f4f4;	
 }
+/************************/
 .display-6{
 	font-size:1.25rem;
 	font-weight:250;
 	line-height:1.2
 }
+/*Vision, Mission, Philosophy*/
 .headline-1{
 	text-align: right;
 	padding: 50px 10px 0px 0px;
@@ -123,7 +131,7 @@ hr{
 		padding: 25px 25px 50px 25px;
 	}
 }
-
+/*Parallax*/
 .parallax{
 	padding: 10px;
 	background-image: url(../images/paper-mill-industry-135x.jpg);
@@ -143,28 +151,6 @@ hr{
 	padding: 10px 10px 0 10px;
 	border: #fff solid 1px;
 	background-color: rgba(0,0,0,0.6);
-}
-.footer{
-	background-color: #444444;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-.footer p{
-	color: #ccc;
-	font-size: 14px;
-}
-.footer h4{
-	color: #fff;
-	font-family: 'Asap', sans-serif;
-}
-.end{
-	background-color: #333333;
-	padding-top: 15px;
-	padding-bottom: 15px;	
-}
-.footer-block{
-	padding-top:15px;
-	padding-bottom: 40px;
 }
 /*Hire*/
 .custom-lead{
@@ -212,5 +198,39 @@ hr{
 	text-align: right;
 }
 #mini-item{
+	padding-left: 0px;
 	margin-bottom: 20px;
 }
+/*Footer*/
+.footer{
+	background-color: #444444;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footer p{
+	color: #ccc;
+	font-size: 14px;
+}
+.footer ul{
+	padding-left: 17px;
+	list-style-type: square;
+	color: #ccc;
+	font-size: 14px;
+}
+.footer li{
+	padding-bottom: 10px;
+}
+.footer h4{
+	color: #fff;
+	font-family: 'Asap', sans-serif;
+}
+.end{
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+.footer-block{
+	padding-top:15px;
+	padding-bottom: 40px;
+}
+
