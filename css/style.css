@@ -7,6 +7,11 @@ p{
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Asap', sans-serif;
 }
+hr{
+	margin-left: 0px;
+	width: 60px;
+	border-top: 3px #f16338 solid;
+}
 .topbar-text{
 	position: absolute;
 	z-index: 1;
@@ -152,11 +157,6 @@ h1,h2,h3,h4,h5,h6 {
 	color: #fff;
 	font-family: 'Asap', sans-serif;
 }
-.footer hr{
-	margin-left: 0px;
-	width: 60px;
-	border-top: 3px #f16338 solid;
-}
 .end{
 	background-color: #333333;
 	padding-top: 15px;
@@ -192,4 +192,9 @@ h1,h2,h3,h4,h5,h6 {
 	background-position: center;
 	background-image: url(../images/we-are-hiring.jpg);
 	min-height: 200px;
+}
+/*Owl Carousel*/
+.owl_carousel{
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
