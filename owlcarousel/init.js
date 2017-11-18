@@ -20,7 +20,7 @@ $('#representation-carousel').owlCarousel({
         568:{
             items:3,
             nav:true,
-            dots:false
+            dots:true
         },
         600:{
             items:3,
@@ -43,27 +43,23 @@ $('#job-carousel').owlCarousel({
     autoplayTimeout: 2500,
     responsiveClass:true,
     nav:false,
+    dots:true,
     responsive:{
         0:{
-            items:1,
-            dots:false
+            items:1
         },
         320:{
-            items:1,
-            dots:false
+            items:1
         },
         568:{
-            items:1,
-            dots:false
+            items:1
         },
         600:{
-            items:1,
-            dots:true
+            items:1
         },
         1000:{
             items:1,
-            loop:true,
-            dots:true
+            loop:true
         }
     }
 });
