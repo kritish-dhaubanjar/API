@@ -198,3 +198,19 @@ hr{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+/*Mini Details*/
+.mini-details{
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #000;
+	color: #fff;
+}
+.mini-details .m-row{
+	margin-bottom: 0px;
+}
+.mini-icon{
+	text-align: right;
+}
+#mini-item{
+	margin-bottom: 20px;
+}
