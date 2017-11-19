@@ -418,7 +418,8 @@ _:-ms-input-placeholder, :root #wowslider-container1 a.ws_prev > span:before {li
 #wowslider-container1 .ws-title div,#wowslider-container1 .ws-title span{
 	display:inline-block;
 	padding: 0.6em 0.8em;
-	background-color: rgba(255,255,255,0.3);
+	/*background-color: rgba(255,255,255,0.3);*/
+	background-color: rgba(0,0,0,0.85);
 	color: #fff;
 }
 #wowslider-container1 .ws-title div{
