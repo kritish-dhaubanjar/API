@@ -3,7 +3,7 @@ $(document).ready(function(){
 $('#representation-carousel').owlCarousel({
     loop:true,
     margin:10,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 2500,
     responsiveClass:true,
     responsive:{

@@ -134,7 +134,7 @@ hr{
 /*Parallax*/
 .parallax{
 	padding: 10px;
-	background-image: url(../images/paper-mill-industry-135x.jpg);
+	background-image: url(../images/cover.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -234,3 +234,8 @@ hr{
 	padding-bottom: 40px;
 }
 
+/*Custom Imghvr*/
+.custom-imghvr{
+	display: block !important;
+	background-color: transparent !important;
+}
